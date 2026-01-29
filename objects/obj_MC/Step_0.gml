@@ -12,6 +12,17 @@ mcDirection = point_direction(0,0,teclaDireita - teclaEsquerda,teclaBaixo - tecl
 velh = lengthdir_x(mcSpeed * teclaCheck, mcDirection);
 velv = lengthdir_y(mcSpeed * teclaCheck, mcDirection);
 
+// TEMP
+image_angle = currentState * 90;
+if(mcDirection == 0 and currentState >= 3) currentState -= 4;
+else {
+	if(teclaCima) currentState = playerStates.walkingUp;
+	if(teclaBaixo) currentState = playerStates.walkingDown;
+	if(teclaDireita) currentState = playerStates.walkingRigth;
+	if(teclaEsquerda) currentState = playerStates.walkingLeft;
+}
+//
+
 x += velh;
 y += velv;
 
