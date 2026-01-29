@@ -51,8 +51,11 @@ move_and_collide(velh, velv, obj_colisao_pai);
 
 //colisao_rock
 
-if((currentState == playerStates.idleUp or currentState == playerStates.walkingUp) and place_meeting(x, y - 1, obj_rock)) {
+if((currentState == playerStates.idleUp or currentState > 3) and place_meeting(x, y - 5, obj_rock)) {
 	if(keyboard_check(ord("E"))){
-		obj_rock.x = x;
+		with(obj_rock) {
+			other.mcSpeed=1;
+			y += sign(other.velv)
+		}
 	}
 }
