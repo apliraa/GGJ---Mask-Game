@@ -45,7 +45,7 @@ else {
 
 //y += velv;
 //x += velh;
-move_and_collide(velh, velv, obj_colisao_pai);
+move_and_collide(velh, velv, [obj_colisao_pai, tileset_collision]);
 
 
 //colisao_rock

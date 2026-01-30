@@ -7,6 +7,7 @@ last_direction = mcDirection;
 currentState = playerStates.idleDown;
 maskState = 4;
 reflexOn = 0;
+tileset_collision = layer_tilemap_get_id("Tiles_Wall")
 
 
 // States

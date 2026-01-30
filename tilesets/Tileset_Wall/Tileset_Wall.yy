@@ -1,28 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"Tileset_Wall",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":16,
-    "SerialiseWidth":24,
-    "TileCompressedData":[
-      -148,0,5,1,2,3,4,5,-19,0,5,15,16,17,18,19,-19,0,5,29,30,31,32,33,-183,0,
-    ],
-    "TileDataFormat":1,
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"Tileset_Wall",
   "out_columns":11,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Tilemaps",
+    "path":"folders/Sprites/Tilemaps.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_worldTiles",
-    "path":"sprites/spr_worldTiles/spr_worldTiles.yy",
+    "name":"TilesWall",
+    "path":"sprites/TilesWall/TilesWall.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
