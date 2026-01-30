@@ -1,1 +1,2 @@
 obj_door.mask_index = 1;
+

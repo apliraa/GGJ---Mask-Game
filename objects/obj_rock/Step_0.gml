@@ -7,8 +7,7 @@ if(detectorCheck == noone){
 		v_speed = 0;
 }
 	
-
-var wallDetectorCheck = instance_place(x, y , obj_wall);
-if(detectorCheck != noone){
-		
+var detectorButton = instance_place(x, y, obj_button)
+if (detectorButton= noone){
+	obj_door.mask_index = -1;
 }
