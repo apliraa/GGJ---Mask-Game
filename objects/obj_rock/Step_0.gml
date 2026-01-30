@@ -8,7 +8,7 @@ if(detectorCheck == noone){
 }
 	
 
-var wallDetectorCheck = instance_place(x, y , obj_tile2);
+var wallDetectorCheck = instance_place(x, y , obj_wall);
 if(detectorCheck != noone){
 		
 }

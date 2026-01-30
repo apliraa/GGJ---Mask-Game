@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tile1",
+  "%Name":"obj_button",
   "eventList":[],
   "managed":true,
-  "name":"obj_tile1",
+  "name":"obj_button",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"Sprite5",
+    "path":"sprites/Sprite5/Sprite5.yy",
   },
   "spriteMaskId":null,
   "visible":true,
