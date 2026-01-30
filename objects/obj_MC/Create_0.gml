@@ -4,8 +4,10 @@ image_angle = 90;
 mcDirection = 0;
 mcSpeed = 3;
 last_direction = mcDirection;
-
 currentState = playerStates.idleDown;
+maskState = 0;
+reflexOn = 0;
+
 
 // States
 enum playerStates {

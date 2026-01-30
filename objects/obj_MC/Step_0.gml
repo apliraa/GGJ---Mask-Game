@@ -108,9 +108,28 @@ if(ladderCheck != noone){
 	}
 }
 
-//reset
+//reset (TODO: ajustar a posição dele nas outras salas)
 if(keyboard_check_pressed(ord("R"))){
 room_restart();	
 x = xstart;
 y = ystart;
 }
+
+//masks
+ if (maskState >= 3) {
+	if (keyboard_check_pressed(ord("3"))) {
+        if (!instance_exists(obj_maskThreeReflex)) {
+            instance_create_layer(obj_MC.x, obj_MC.y, "Instances_3", obj_maskThreeReflex);
+		} else {
+            instance_destroy(obj_maskThreeReflex);
+			
+        }
+    }
+ }
+
+
+
+
+	
+	
+	
