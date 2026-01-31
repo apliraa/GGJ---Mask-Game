@@ -27,6 +27,7 @@
   "resources":[
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"obj_colisao_pai","path":"objects/obj_colisao_pai/obj_colisao_pai.yy",},},
+    {"id":{"name":"obj_colision_controler","path":"objects/obj_colision_controler/obj_colision_controler.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"obj_ladderSala1","path":"objects/obj_ladderSala1/obj_ladderSala1.yy",},},
@@ -79,6 +80,7 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_worldTwoWall","path":"sprites/spr_worldTwoWall/spr_worldTwoWall.yy",},},
     {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
+    {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},
     {"id":{"name":"TilesFloor","path":"sprites/TilesFloor/TilesFloor.yy",},},
     {"id":{"name":"TilesWall","path":"sprites/TilesWall/TilesWall.yy",},},
     {"id":{"name":"Tileset_Floor","path":"tilesets/Tileset_Floor/Tileset_Floor.yy",},},

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ladderSala1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_colision_controler",
+  "eventList":[],
   "managed":true,
-  "name":"obj_ladderSala1",
+  "name":"obj_colision_controler",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite37",
-    "path":"sprites/Sprite37/Sprite37.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
